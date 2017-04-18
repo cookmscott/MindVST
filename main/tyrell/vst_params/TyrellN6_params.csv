@@ -1,0 +1,92 @@
+0,Output,0.500000
+1,Matrix1 Source,0.000000
+2,Matrix1 Depth,0.500000
+3,Matrix1 ViaSrc,0.000000
+4,Matrix1 Via,0.500000
+5,Matrix2 Source,0.000000
+6,Matrix2 Depth,0.500000
+7,Matrix2 ViaSrc,0.000000
+8,Matrix2 Via,0.500000
+9,Voice Stack,0.000000
+10,Mode,0.000000
+11,GlideMode,0.000000
+12,Glide,0.000000
+13,Glide2,0.500000
+14,PortaRange,1.000000
+15,PitchBend Up,0.083333
+16,PitchBend Down,0.083333
+17,Transpose,0.250000
+18,Attack,0.010000
+19,Decay,0.500000
+20,Sustain,1.000000
+21,Fall-Rise,0.500000
+22,Release,0.200000
+23,Velocity,0.000000
+24,KeyTrack,0.500000
+25,Trigger,0.000000
+26,Attack,0.010000
+27,Decay,0.500000
+28,Sustain,1.000000
+29,Fall-Rise,0.500000
+30,Release,0.200000
+31,Velocity,0.000000
+32,KeyTrack,0.500000
+33,Trigger,0.000000
+34,Sync,0.192308
+35,Delay,0.000000
+36,Sync,0.346154
+37,Delay,0.000000
+38,Shape1,0.666667
+39,TuneModSrc1,0.000000
+40,TuneModDepth1,0.500000
+41,Shape2,1.000000
+42,Tune2,0.000000
+43,FineTune2,0.500000
+44,TuneModSrc2,0.875000
+45,TuneModDepth2,0.500000
+46,PWDepth,0.000000
+47,PWSrc,1.000000
+48,Detune,0.500000
+49,SoftSync,0.000000
+50,Vibrato,0.000000
+51,RingModIn1,0.000000
+52,RingModIn2,0.500000
+53,NoiseColour,0.000000
+54,OscVolume1,0.560000
+55,OscVolume2,0.560000
+56,SubVolume,0.000000
+57,NoiseVolume,0.000000
+58,RingModulator,0.000000
+59,Feedback,0.000000
+60,VCFMode,0.000000
+61,VCFPoles,0.500000
+62,Cutoff,1.000000
+63,FreqModSrc1,0.875000
+64,FreqModDepth1,0.500000
+65,FreqModSrc2,0.937500
+66,FreqModDepth2,0.500000
+67,KeyFollow,0.000000
+68,Resonance,0.000000
+69,MixSpread,0.000000
+70,AudioRateSrc,0.000000
+71,AudioRateDest,0.000000
+72,XModDepth,0.000000
+73,AudioRateModSrc,0.000000
+74,Type,0.000000
+75,Rate,0.500000
+76,Depth,0.500000
+77,Wet,1.000000
+78,Restart,0.333333
+79,Waveform,0.142857
+80,Phase,0.000000
+81,Polarity,0.000000
+82,DepthMod Dpt1,1.000000
+83,Rate,0.500000
+84,FreqMod Dpt,0.500000
+85,Restart,0.333333
+86,Waveform,0.142857
+87,Phase,0.000000
+88,Polarity,0.000000
+89,DepthMod Dpt1,0.000000
+90,Rate,0.500000
+91,FreqMod Dpt,0.500000

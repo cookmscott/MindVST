@@ -1,0 +1,4 @@
+ran only with first 288 params... the later params are for mapping stuff around the synth... one bad map can cause
+everything to go haywire
+
+running for 2000 iterations 

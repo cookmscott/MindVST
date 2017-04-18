@@ -1,0 +1,22 @@
+from midiutil.MidiFile import MIDIFile
+
+# create your MIDI object
+mf = MIDIFile(1)     # only 1 track
+track = 0   # the only track
+
+time = 0    # start at the beginning
+mf.addTrackName(track, time, "Sample Track")
+mf.addTempo(track, time, 60)
+
+# add some notes
+channel = 0
+volume = 100
+
+pitch = 48           # C4 (middle C)
+time = 0             # start on beat 0
+duration = 16         # 1 beat long
+mf.addNote(track, channel, pitch, time, duration, volume)
+
+# write it to disk
+with open("/Users/scott.cook/Downloads/test.mid", 'wb') as outf:
+    mf.writeFile(outf)

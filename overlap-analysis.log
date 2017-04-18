@@ -1,0 +1,100 @@
+
+ --- INFORMATIONAL ---
+run started at: Mon Apr 17 16:58:20 2017
+
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF
+ChunkSize: 986646
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 3
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 352800
+BlockAlign: 8
+BitsPerSample: 32
+Subchunk2ID: fact
+Subchunk2Size: 4
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF$Ð
+ChunkSize: 446500
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 176400
+BlockAlign: 4
+BitsPerSample: 16
+Subchunk2ID: data
+Subchunk2Size: 446464
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+run finished at: Mon Apr 17 16:58:20 2017
+
+
+ --- INFORMATIONAL ---
+run started at: Mon Apr 17 16:59:28 2017
+
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF
+ChunkSize: 986646
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 3
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 352800
+BlockAlign: 8
+BitsPerSample: 32
+Subchunk2ID: fact
+Subchunk2Size: 4
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF$Ð
+ChunkSize: 446500
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 176400
+BlockAlign: 4
+BitsPerSample: 16
+Subchunk2ID: data
+Subchunk2Size: 446464
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+run finished at: Mon Apr 17 16:59:28 2017
+

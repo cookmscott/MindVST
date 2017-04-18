@@ -1,0 +1,197 @@
+
+ --- INFORMATIONAL ---
+run started at: Tue Mar  7 18:26:42 2017
+
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFFÆ
+ChunkSize: 204742
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 48000
+ByteRate: 96000
+BlockAlign: 2
+BitsPerSample: 16
+Subchunk2ID: LIST
+Subchunk2Size: 26
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF$È
+ChunkSize: 182308
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 176400
+BlockAlign: 4
+BitsPerSample: 16
+Subchunk2ID: data
+Subchunk2Size: 182272
+----------------------- wav subchunk end -----------------------
+
+ --- FATAL ---
+Sample rates differ, exiting.
+
+ --- INFORMATIONAL ---
+run started at: Tue Mar  7 18:26:50 2017
+
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFFÆ
+ChunkSize: 204742
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 48000
+ByteRate: 96000
+BlockAlign: 2
+BitsPerSample: 16
+Subchunk2ID: LIST
+Subchunk2Size: 26
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF$È
+ChunkSize: 182308
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 176400
+BlockAlign: 4
+BitsPerSample: 16
+Subchunk2ID: data
+Subchunk2Size: 182272
+----------------------- wav subchunk end -----------------------
+
+ --- FATAL ---
+Sample rates differ, exiting.
+
+ --- INFORMATIONAL ---
+run started at: Tue Mar  7 18:27:05 2017
+
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFFÆ
+ChunkSize: 204742
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 48000
+ByteRate: 96000
+BlockAlign: 2
+BitsPerSample: 16
+Subchunk2ID: LIST
+Subchunk2Size: 26
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFF$È
+ChunkSize: 182308
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 2
+SampleRate: 44100
+ByteRate: 176400
+BlockAlign: 4
+BitsPerSample: 16
+Subchunk2ID: data
+Subchunk2Size: 182272
+----------------------- wav subchunk end -----------------------
+
+ --- FATAL ---
+Sample rates differ, exiting.
+
+ --- INFORMATIONAL ---
+run started at: Tue Mar  7 18:27:11 2017
+
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFFÆ
+ChunkSize: 204742
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 48000
+ByteRate: 96000
+BlockAlign: 2
+BitsPerSample: 16
+Subchunk2ID: LIST
+Subchunk2Size: 26
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav header start -----------------------
+ChunkID: RIFFÆ
+ChunkSize: 204742
+Format: WAVE
+----------------------- wav header end -----------------------
+
+ --- INFORMATIONAL ---
+----------------------- wav subchunk start -----------------------
+Subchunk1ID: fmt 
+Subchunk1Size: 16
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 48000
+ByteRate: 96000
+BlockAlign: 2
+BitsPerSample: 16
+Subchunk2ID: LIST
+Subchunk2Size: 26
+----------------------- wav subchunk end -----------------------
+
+ --- INFORMATIONAL ---
+run finished at: Tue Mar  7 18:27:11 2017
+

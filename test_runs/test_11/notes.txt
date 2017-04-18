@@ -1,0 +1,3 @@
+ran 1000 iterations with dumb hp.uniform set for all parameters
+best result was 0.913
+vst: spire
