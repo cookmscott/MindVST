@@ -1,8 +1,4 @@
 __author__ = 'scott.cook'
-""" THIS ATTEMPT USES **PARTIAL** FROM Spire
- >> specifically, this will only use two oscillators
- >> pulls from Spire-1.1_params_subset.csv
-"""
 
 from utilities import sound_features
 from hyperopt import fmin, tpe, hp, rand
@@ -14,21 +10,21 @@ import csv
 
 def files_exist(midi, wav_in, wav_out):
     if os.path.exists(midi):
-        print "Midi: %s" % midi
+        print "[INFO] Midi: %s" % midi
     else:
-        print "Midi %s does not exist" % midi
+        print "[ERROR] Midi %s does not exist" % midi
         sys.exit()
 
     if os.path.exists(wav_in):
-        print "wav_in: %s" % wav_in
+        print "[INFO] wav_in: %s" % wav_in
     else:
-        print "wav_in %s does not exist" % wav_in
+        print "[ERROR] wav_in %s does not exist" % wav_in
         sys.exit()
 
     if os.path.exists(wav_out):
-        print "wav_out: %s" % wav_out
+        print "[INFO] wav_out: %s" % wav_out
     else:
-        print "wav_out %s does not exist" % wav_out
+        print "[ERROR] wav_out %s does not exist" % wav_out
         sys.exit()
 
 def process_vst_and_compare(midi, plugin, vst_params, wav_in, wav_out):
@@ -41,7 +37,7 @@ def process_vst_and_compare(midi, plugin, vst_params, wav_in, wav_out):
         score = subprocess.Popen(cmd2 % (wav_in, wav_out), shell=True, stderr=subprocess.PIPE)
         time.sleep(0.1)
         if score < 0.7:
-            cmd3 = 'mv output.wav output_%s.wav'
+            cmd3 = 'mv /Users/scott.cook/PycharmProjects/MindVST/samples/output.wav /Users/scott.cook/PycharmProjects/MindVST/samples/output_%s.wav'
             subprocess.Popen(cmd3 % score, shell=True, stderr=subprocess.PIPE)
         return 1 - float(score.stderr.readline())
     except:
@@ -53,7 +49,7 @@ def process_vst_and_compare(midi, plugin, vst_params, wav_in, wav_out):
         score = subprocess.Popen(cmd2 % (wav_in, wav_out), shell=True, stderr=subprocess.PIPE)
         time.sleep(0.2)
         if score < 0.7:
-            cmd3 = 'mv output.wav output_%s.wav'
+            cmd3 = 'mv /Users/scott.cook/PycharmProjects/MindVST/samples/output.wav /Users/scott.cook/PycharmProjects/MindVST/samples/output_%s.wav'
             subprocess.Popen(cmd3 % score, shell=True, stderr=subprocess.PIPE)
         return 1 - float(score.stderr.readline())
 
@@ -73,16 +69,16 @@ print sp.returncode
 """
 
 # SET NEEDED INPUT AND OUTPUT VARIABLES
-# midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_C4_16s_1.mid'
-midi = '/Users/scott.cook/Downloads/test.mid'
+midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_A3_3s.mid'
 plugin = 'TyrellN6'
-wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/input.wav'
+wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/cello.wav'
 wav_out = '/Users/scott.cook/PycharmProjects/MindVST/samples/output.wav'
 
 # ENSURE ALL FILES EXISTS
 files_exist(midi, wav_in, wav_out)
 
 print "[INFO] Starting Parameter Optimization for %s..." % plugin
+
 log = open("samples/log.txt", "w")
 
 """
@@ -248,7 +244,7 @@ space = (
 best = fmin(run_wrapper,
             space,
             algo=tpe.suggest,
-            max_evals=1)
+            max_evals=1000)
 
 print best
 

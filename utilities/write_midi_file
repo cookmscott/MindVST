@@ -12,11 +12,11 @@ mf.addTempo(track, time, 60)
 channel = 0
 volume = 100
 
-pitch = 48           # C4 (middle C)
+pitch = 57           # C4 (middle C)
 time = 0             # start on beat 0
-duration = 16         # 1 beat long
+duration = 3         # 1 beat long
 mf.addNote(track, channel, pitch, time, duration, volume)
 
 # write it to disk
-with open("/Users/scott.cook/Downloads/test.mid", 'wb') as outf:
+with open("/Users/scott.cook/PycharmProjects/MindVST/samples/midi_A3_16s.mid", 'wb') as outf:
     mf.writeFile(outf)
