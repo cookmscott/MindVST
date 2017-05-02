@@ -18,5 +18,5 @@ duration = 3         # 1 beat long
 mf.addNote(track, channel, pitch, time, duration, volume)
 
 # write it to disk
-with open("/Users/scott.cook/PycharmProjects/MindVST/samples/midi_A3_16s.mid", 'wb') as outf:
+with open("/Users/scott.cook/PycharmProjects/MindVST/samples/midi_A2_3s.mid", 'wb') as outf:
     mf.writeFile(outf)

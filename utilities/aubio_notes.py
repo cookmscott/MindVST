@@ -1,5 +1,10 @@
 #! /usr/bin/env python
 
+"""
+aubio notes is a utility for finding midi notes associated to frequency of audio input
+win_s and hop_s affect the "threshold" at which individual notes are assessed
+"""
+
 import sys
 from aubio import source, notes
 
@@ -45,3 +50,4 @@ print midi_notes
 command line example:
 aubionotes --input /Users/scott.cook/PycharmProjects/MindVST/samples/cello.wav --onset-threshold 0.1 --verbose
 '''
+aubionotes --input /Users/scott.cook/PycharmProjects/MindVST/samples/cello.wav --onset-threshold 0.1 --verbose

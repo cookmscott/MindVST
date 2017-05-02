@@ -5,14 +5,17 @@ mid = MidiFile(type=0)
 track = MidiTrack()
 mid.tracks.append(track)
 
+note = 42
+
 track.append(Message('program_change', program=0, time=0))
-track.append(Message('note_on', note=57, velocity=100, time=0))
-track.append(Message('note_off', note=57, velocity=100, time=2800))
-
-mid.save('/Users/scott.cook/PycharmProjects/MindVST/samples/midi_A3_3s.mid')
+track.append(Message('note_on', note=note, velocity=100, time=0))
+track.append(Message('note_off', note=note, velocity=100, time=2500))
 
 
-filename = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_A3_3s.mid'
+mid.save('/Users/scott.cook/PycharmProjects/MindVST/samples/midi_files/midi_Fs2_2s.mid')
+
+
+filename = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_files/midi_Fs2_2s.mid'
 
 midi_file = MidiFile(filename)
 

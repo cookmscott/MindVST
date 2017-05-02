@@ -11,7 +11,7 @@ import csv
 
 # file should be of format:
 # param num,param name,param value
-reader = csv.reader(open('vst_params/Spire-1.1/Spire-1.1_params_subset.csv'))
+reader = csv.reader(open('/Users/scott.cook/PycharmProjects/MindVST/main/spire/vst_params/Spire-1.1_params_subset.csv'))
 
 from hyperopt import fmin, tpe, hp, rand
 import subprocess
@@ -40,28 +40,32 @@ def files_exist(midi, wav_in, wav_out):
 
 def process_vst_and_compare(midi, plugin, vst_params, wav_in, wav_out):
     try:
-        cmd = '/Users/scott.cook/Documents/MrsWatson/main/mrswatson -m %s -o %s -p %s %s 1>&2'
+        cmd = '/Users/scott.cook/Documents/MrsWatson/main/mrswatson -m %s -o %s -p %s %s --quiet 1>&2'
         subprocess.Popen(cmd % (midi, wav_out, plugin, vst_params), shell=True, stderr=subprocess.PIPE)
-        time.sleep(0.05)
+        time.sleep(0.5)
         # cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/waveform-compare %s %s | sed -n -e \'s/^.*Value in block: //p\' 1>&2'
         cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/overlap-analysis %s %s | sed -n -e \'s/^.*Value of match was: //p\' 1>&2'
         score = subprocess.Popen(cmd2 % (wav_in, wav_out), shell=True, stderr=subprocess.PIPE)
-        time.sleep(0.05)
-        return 1 - float(score.stderr.readline())
+        time.sleep(0.5)
+        score = float(score.stderr.readline())
+        if 1 - score < 0.93:
+            cmd3 = 'mv /Users/scott.cook/PycharmProjects/MindVST/samples/output.wav /Users/scott.cook/PycharmProjects/MindVST/samples/runs/output_%s.wav'
+            subprocess.Popen(cmd3 % (1 - score), shell=True, stderr=subprocess.PIPE)
+        return 1 - score
     except:
         return 1.0
 
 # SET NEEDED INPUT AND OUTPUT VARIABLES
-midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_C4_16s_1.mid'
+midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_files/midi_A2_2s.mid'
 plugin = 'Spire-1.1'
-wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/input.wav'
+wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/cello.wav'
 wav_out = '/Users/scott.cook/PycharmProjects/MindVST/samples/output.wav'
 
 # ENSURE ALL FILES EXISTS
 files_exist(midi, wav_in, wav_out)
 
 print "[INFO] Starting Parameter Optimization for %s..." % plugin
-log = open("samples/log.txt", "w")
+log = open("/Users/scott.cook/PycharmProjects/MindVST/samples/log.txt", "w")
 
 """
 Define and run hyperparameter optimization on
