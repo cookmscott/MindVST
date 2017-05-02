@@ -26,12 +26,12 @@ def process_vst_and_compare(midi, plugin, vst_params, wav_in, wav_out):
         cmd = '/Users/scott.cook/Documents/MrsWatson/main/mrswatson -m %s -o %s -p %s %s 1>&2'
         subprocess.Popen(cmd % (midi, wav_out, plugin, vst_params), shell=True, stderr=subprocess.PIPE)
         time.sleep(0.2)
-        # cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/waveform-compare %s %s | sed -n -e \'s/^.*Value in block: //p\' 1>&2'
+        # cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/waveform-compare %s %s --pad-short-block | sed -n -e \'s/^.*Value in block: //p\' 1>&2'
         cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/overlap-analysis %s %s | sed -n -e \'s/^.*Value of match was: //p\' 1>&2'
-        score = subprocess.Popen(cmd2 % (wav_in, wav_out), shell=True, stderr=subprocess.PIPE)
+        score = subprocess.Popen(cmd2 % (wav_out, wav_in), shell=True, stderr=subprocess.PIPE)
         time.sleep(0.2)
         score = float(score.stderr.readline())
-        if 1 - score < 0.9:
+        if 1 - score < 0.8:
             cmd3 = 'mv /Users/scott.cook/PycharmProjects/MindVST/samples/output.wav /Users/scott.cook/PycharmProjects/MindVST/samples/runs/output_%s.wav'
             subprocess.Popen(cmd3 % (1 - score), shell=True, stderr=subprocess.PIPE)
         return 1 - score
@@ -40,12 +40,12 @@ def process_vst_and_compare(midi, plugin, vst_params, wav_in, wav_out):
         cmd = '/Users/scott.cook/Documents/MrsWatson/main/mrswatson -m %s -o %s -p %s %s 1>&2'
         subprocess.Popen(cmd % (midi, wav_out, plugin, vst_params), shell=True, stderr=subprocess.PIPE)
         time.sleep(0.4)
-        # cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/waveform-compare %s %s | sed -n -e \'s/^.*Value in block: //p\' 1>&2'
+        # cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/waveform-compare %s %s --pad-short-block | sed -n -e \'s/^.*Value in block: //p\' 1>&2'
         cmd2 = '/Users/scott.cook/Documents/scape-xcorrsound/build/apps/overlap-analysis %s %s | sed -n -e \'s/^.*Value of match was: //p\' 1>&2'
-        score = subprocess.Popen(cmd2 % (wav_in, wav_out), shell=True, stderr=subprocess.PIPE)
+        score = subprocess.Popen(cmd2 % (wav_out, wav_in), shell=True, stderr=subprocess.PIPE)
         time.sleep(0.4)
         score = float(score.stderr.readline())
-        if 1 - score < 0.9:
+        if 1 - score < 0.8:
             cmd3 = 'mv /Users/scott.cook/PycharmProjects/MindVST/samples/output.wav /Users/scott.cook/PycharmProjects/MindVST/samples/runs/output_%s.wav'
             subprocess.Popen(cmd3 % (1 - score), shell=True, stderr=subprocess.PIPE)
         return 1 - score
@@ -66,9 +66,9 @@ print sp.returncode
 """
 
 # SET NEEDED INPUT AND OUTPUT VARIABLES
-midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_Fs2_2s.mid'
+midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_files/midi_B4_1200ms.mid'
 plugin = 'TyrellN6'
-wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/cello_f2_trim.wav'
+wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/B4_tyrell_preset.wav'
 wav_out = '/Users/scott.cook/PycharmProjects/MindVST/samples/output.wav'
 
 # ENSURE ALL FILES EXISTS
@@ -297,7 +297,7 @@ space = (
     hp.quniform('p54',0,1,0.1),
     hp.quniform('p55',0,1,0.1),
     hp.quniform('p56',0,1,0.1),
-    hp.quniform('p57',0,1,0.1),
+    hp.quniform('p57',0,0.1,0.1),
     hp.quniform('p58',0,1,0.1),
     hp.quniform('p59',0,1,0.1),
     hp.quniform('p60',0,1,0.1),
@@ -339,7 +339,7 @@ space = (
 best = fmin(run_wrapper,
             space,
             algo=tpe.suggest,
-            max_evals=800)
+            max_evals=400)
 
 print best
 

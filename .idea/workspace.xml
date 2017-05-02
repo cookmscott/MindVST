@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d598207-5d1f-48d0-bbfd-d5c3e78e03f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/cello.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/output_0.163203.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/output_0.164325.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.40.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.45.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.50.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.51.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.52.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.56.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.61.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.67.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_runs/test_19/output_0.88.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/waveform-compare.log" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_A2_3s.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_A3_16s.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_A3_3s.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_C4_16s.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_C4_16s_1.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_C4_4s.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_C4_4s_1.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_C4_8s.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/midi_C4_8s_1.mid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/output.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/output_C4_4s.mid" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/waves.png" afterPath="$PROJECT_DIR$/utilities/waves.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/aubio_notes.py" afterPath="$PROJECT_DIR$/utilities/aubio_notes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/spire/fmin_spire2.py" afterPath="$PROJECT_DIR$/main/spire/fmin_spire2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/output.wav" afterPath="$PROJECT_DIR$/samples/output.wav" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/tyrell/fmin_tyrell.py" afterPath="$PROJECT_DIR$/main/tyrell/fmin_tyrell.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/overlap-analysis.log" afterPath="$PROJECT_DIR$/overlap-analysis.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/write_midi_file" afterPath="$PROJECT_DIR$/utilities/write_midi_file" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waveform-compare.log" afterPath="$PROJECT_DIR$/waveform-compare.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utilities/write_mido_file.py" afterPath="$PROJECT_DIR$/utilities/write_mido_file.py" />
     </list>
     <ignored path="MindVST.iws" />
@@ -57,34 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fmin_spire2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/spire/fmin_spire2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.88889" vertical-offset="45" max-vertical-offset="7260">
-              <caret line="46" column="88" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gene_demo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code_tests/gene_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71357614" vertical-offset="634" max-vertical-offset="1710">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fmin_tyrell.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fmin_tyrell.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/tyrell/fmin_tyrell.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.481482" vertical-offset="224" max-vertical-offset="5460">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.20877458" vertical-offset="882" max-vertical-offset="5460">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="87" />
               <folding>
                 <element signature="e#27#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TyrellN6_params.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/tyrell/vst_params/TyrellN6_params.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="842" max-vertical-offset="1455">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,21 +56,9 @@
         <entry file="file://$PROJECT_DIR$/utilities/write_mido_file.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aubio_notes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/aubio_notes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="870">
-              <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
-              <folding>
-                <element signature="e#198#208#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,18 +99,18 @@
         <option value="$PROJECT_DIR$/utilities/write_midi_file" />
         <option value="$PROJECT_DIR$/main/tyrell/fmin_tyrell_2bad.py" />
         <option value="$PROJECT_DIR$/utilities/sound_features.py" />
-        <option value="$PROJECT_DIR$/main/tyrell/fmin_tyrell.py" />
         <option value="$PROJECT_DIR$/utilities/aubio_notes.py" />
-        <option value="$PROJECT_DIR$/utilities/write_mido_file.py" />
         <option value="$PROJECT_DIR$/main/spire/fmin_spire2.py" />
+        <option value="$PROJECT_DIR$/utilities/write_mido_file.py" />
+        <option value="$PROJECT_DIR$/main/tyrell/fmin_tyrell.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1148" />
-    <option name="y" value="893" />
-    <option name="width" value="1140" />
-    <option name="height" value="1027" />
+    <option name="x" value="1483" />
+    <option name="y" value="24" />
+    <option name="width" value="1574" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -184,6 +135,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,13 +214,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tyrell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vst_params" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MindVST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MindVST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="code_tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +265,7 @@
       <recent name="$PROJECT_DIR$/main/tyrell" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gene_demo">
+  <component name="RunManager" selected="Python.fmin_tyrell">
     <configuration default="false" name="fmin_tyrell" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -521,10 +494,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.gene_demo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fmin_spire2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.fmin_tyrell" />
-        <item index="3" class="java.lang.String" itemvalue="Python.write_mido_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python.fmin_tyrell" />
+        <item index="1" class="java.lang.String" itemvalue="Python.write_mido_file" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gene_demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.fmin_spire2" />
         <item index="4" class="java.lang.String" itemvalue="Python.fmin_tyrell_2bad" />
       </list>
     </recent_temporary>
@@ -563,28 +536,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1148" y="893" width="1140" height="1027" extended-state="0" />
+    <frame x="1483" y="24" width="1574" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21748401" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24472573" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2841823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17965229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39679146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325736" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32406417" sideWeight="0.49965823" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32383966" sideWeight="0.49965823" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23394994" sideWeight="0.5003418" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -616,16 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/tyrell/fmin_tyrell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3855">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="67" />
-          <folding>
-            <element signature="e#27#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utilities/audio_to_midi_melodia.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="3195">
@@ -872,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7020">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,46 +892,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/tyrell/vst_params/TyrellN6_params.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1455">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/write_mido_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/aubio_notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="870">
-          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
-          <folding>
-            <element signature="e#198#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/tyrell/fmin_tyrell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.481482" vertical-offset="224" max-vertical-offset="5460">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="e#27#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/spire/fmin_spire2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.88889" vertical-offset="45" max-vertical-offset="7260">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="7260">
           <caret line="46" column="88" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="88" />
           <folding />
         </state>
@@ -977,9 +902,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code_tests/gene_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71357614" vertical-offset="634" max-vertical-offset="1710">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/hyperopt/tpe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29651162" vertical-offset="1116" max-vertical-offset="13215">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/aubio_notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60755813" vertical-offset="167" max-vertical-offset="870">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="e#198#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/tyrell/vst_params/TyrellN6_params.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/write_mido_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/tyrell/fmin_tyrell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20877458" vertical-offset="882" max-vertical-offset="5460">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="87" />
+          <folding>
+            <element signature="e#27#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
