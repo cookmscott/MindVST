@@ -1,5 +1,13 @@
 __author__ = 'scott.cook'
 
+"""
+ADD A STEP TO SCRIPT
+
+convert sample rate to 44100hz for all samples or else overlap-analysis and waveform-compare will fail
+
+"""
+
+
 from utilities import sound_features
 from hyperopt import fmin, tpe, hp, rand
 import subprocess
@@ -66,9 +74,9 @@ print sp.returncode
 """
 
 # SET NEEDED INPUT AND OUTPUT VARIABLES
-midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_files/midi_B4_1200ms.mid'
+midi = '/Users/scott.cook/PycharmProjects/MindVST/samples/midi_files/midi_As3   _900ms.mid'
 plugin = 'TyrellN6'
-wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/B4_tyrell_preset.wav'
+wav_in = '/Users/scott.cook/PycharmProjects/MindVST/samples/generator_hum.wav'
 wav_out = '/Users/scott.cook/PycharmProjects/MindVST/samples/output.wav'
 
 # ENSURE ALL FILES EXISTS
@@ -339,7 +347,7 @@ space = (
 best = fmin(run_wrapper,
             space,
             algo=tpe.suggest,
-            max_evals=400)
+            max_evals=600)
 
 print best
 

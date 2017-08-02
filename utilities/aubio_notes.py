@@ -48,6 +48,7 @@ print midi_notes
 
 '''
 command line example:
-aubionotes --input /Users/scott.cook/PycharmProjects/MindVST/samples/cello.wav --onset-threshold 0.1 --verbose
+aubionotes --input /Users/scott.cook/PycharmProjects/MindVST/samples/engine.wav --onset-threshold 0.1 --verbose
 '''
 aubionotes --input /Users/scott.cook/PycharmProjects/MindVST/samples/cello.wav --onset-threshold 0.1 --verbose
+aubionotes --input /Users/scott.cook/PycharmProjects/MindVST/samples/generator_hum.wav --onset-threshold 0.1 --verbose
